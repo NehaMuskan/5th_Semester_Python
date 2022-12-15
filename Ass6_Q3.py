@@ -1,7 +1,8 @@
 def func(a):
-    c=0
+    c=1
     for i in range(len(a)):
-        c=c+1
+       if a[i]==" ":
+           c=c+1
     return c
            
 a=input()
